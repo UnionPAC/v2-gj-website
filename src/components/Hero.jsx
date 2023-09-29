@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import Model from "./Scene";
 import Header from "./Header";
-import Orb from "./Orb";
 
 const Hero = () => {
   return (
@@ -9,14 +11,14 @@ const Hero = () => {
         <Header />
         <div className="flex h-[80%]">
           <div className="flex flex-col flex-1 max-w-[50%] m-4 items-start justify-center">
-            <div className="max-w-[80%] mx-auto">
-              <h2 className="mb-4">Title</h2>
-              <p className="mb-6">
+            <div className="max-w-[70%] mx-auto">
+              <h2 className="mb-14 text-5xl font-semibold">Hey! I'm Geoff 👋</h2>
+              <p className="mb-8 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
                 blanditiis magnam omnis molestias doloremque fugiat dolorem,
-                quae incidunt ducimus quibusdam, perferendis.
+                quae incidunt ducimus quibusdam.
               </p>
-              <button className="max-w-[20%]">Get in touch</button>
+              <button className="border-2 px-6 py-3 active:scale-95">Get in touch</button>
             </div>
           </div>
           <div className="flex justify-center items-end">
@@ -37,7 +39,11 @@ const Hero = () => {
             </a>
           </div>
           <div className="flex flex-1 max-w-[50%] m-4 justify-center items-center">
-            <Orb />
+            <Canvas>
+              <ambientLight color={0xfffff} intensity={20} />
+              <Model />
+              <OrbitControls enableZoom={false} />
+            </Canvas>
           </div>
         </div>
       </section>

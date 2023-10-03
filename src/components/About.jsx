@@ -1,9 +1,6 @@
 const About = () => {
   return (
-    <section
-      id="about"
-      className="h-[100dvh] snap-center"
-    >
+    <section id="about">
       <p>about</p>
     </section>
   );

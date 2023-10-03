@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section id="projects" className="h-[100dvh] snap-center">
+    <section id="projects">
       <div>
         <h2>Title</h2>
         <p>

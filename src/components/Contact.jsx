@@ -1,10 +1,7 @@
-import Footer from "./Footer";
-
 const Contact = () => {
   return (
-    <section id="contact" className="h-[100dvh] snap-center">
+    <section id="contact">
       <p>contact</p>
-      <Footer />
     </section>
   );
 };

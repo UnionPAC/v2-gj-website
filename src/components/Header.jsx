@@ -1,14 +1,14 @@
 const Header = () => {
   return (
-    <header className="w-[90%] mx-auto flex justify-between items-center p-4">
+    <header>
       <a href="/">
-        <h1 className="text-2xl font-syne font-extrabold uppercase tracking-wide max-w-[200px]">
+        <h1 className="text-2xl font-syne font-extrabold uppercase">
           Geoff Jamieson
         </h1>
       </a>
       {/* Navigation for tablet & desktop */}
-      <nav className="hidden md:flex">
-        <ul className="flex md:space-x-8 lg:space-x-12">
+      <nav>
+        <ul>
           <li>
             <a href="#about">About</a>
           </li>

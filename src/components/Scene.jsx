@@ -7,23 +7,24 @@ Source: https://sketchfab.com/3d-models/cyber-spore-b811b00a737247ea9328326a0540
 Title: Cyber Spore
 */
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
 export default function Model(props) {
+  
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/scene.gltf");
   const { actions } = useAnimations(animations, group);
-
-  console.log(materials);
 
   useEffect(() => {
     actions.Animation.play();
     actions.Animation.timeScale = 0.1;
   }, []);
 
+  
+
   return (
-    <group ref={group} {...props} dispose={null} scale={2}>
+    <group ref={group} {...props} dispose={null} scale={2.3}>
       <group name="Sketchfab_Scene">
         <group
           name="Sketchfab_model"

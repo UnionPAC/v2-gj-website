@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="max-w-[60em] mx-auto mt-2 p-4 flex items-center justify-between">
+    <header className="hidden max-w-[60em] mx-auto mt-2 p-4 md:flex items-center justify-between">
       <a href="/">
         <h1 className="text-xl font-syne font-extrabold uppercase">
           Geoff Jamieson

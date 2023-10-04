@@ -5,26 +5,39 @@ import Model from "./Scene";
 
 const Hero = () => {
   return (
-    <section id="hero">
-      <div id="hero-content">
-        <h2>Frontend Developer</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor
-          sit amet consectetur adipisicing elit.
-        </p>
-        <div>
-          <a href="#contact">
-            <button>Get in touch</button>
-          </a>
-          <a href="#contact">
-            <button>View work</button>
-          </a>
+    <section id="hero" className="max-w-[60em] mx-auto p-4">
+      <div className="flex flex-col-reverse items-center">
+        <div id="hero-content" className="text-center">
+          <h2 className="text-3xl font-medium mb-4">Hey! I'm Geoff 👋</h2>
+          <p className="mb-8 text-[.9em] max-w-[430px]">
+            A design-minded front-end software engineer focused on building
+            beautiful interfaces & experiences.
+          </p>
+          <div className="flex flex-col-reverse">
+            <a href="#contact">
+              <button className="border w-full max-w-[300px] py-3 bg-white text-black">
+                Get in touch
+              </button>
+            </a>
+            <a href="#contact">
+              <button className="border w-full max-w-[300px] py-3 mb-2">
+                View work
+              </button>
+            </a>
+          </div>
+        </div>
+        <div id="model" className="py-6 h-[300px] flex justify-center items-center">
+          <Canvas>
+            <ambientLight color={0xfffff} intensity={20} />
+            <Model />
+            <OrbitControls enableZoom={false} enablePan={false} />
+          </Canvas>
         </div>
       </div>
       <div id="scroll-animation">
         <a href="#about">
           {/* Scroll Animation: Only visible on tablet & desktop */}
-          <div className="hidden md:flex w-[30px] h-[60px] rounded-3xl border-4 border-secondary justify-center items-start p-2">
+          <div className="hidden lg:flex w-[30px] h-[60px] rounded-3xl border-4 border-secondary justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -38,13 +51,6 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
-      <div id="model">
-        <Canvas>
-          <ambientLight color={0xfffff} intensity={20} />
-          <Model />
-          <OrbitControls enableZoom={false} enablePan={false} />
-        </Canvas>
       </div>
     </section>
   );

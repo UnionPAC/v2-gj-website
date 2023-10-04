@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
   } = project;
 
   return (
-    <div id={`card-${id}`}>
+    <div id={`card-${id}`} className="border-2">
       <div>
         <i className={fontAwesomeIcon}></i>
       </div>

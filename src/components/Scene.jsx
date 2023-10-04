@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/cyber-spore-b811b00a737247ea9328326a0540
 Title: Cyber Spore
 */
 
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
 export default function Model(props) {

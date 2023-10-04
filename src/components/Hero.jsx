@@ -8,8 +8,8 @@ const Hero = () => {
     <section id="hero" className="max-w-[60em] mx-auto p-4">
       <div className="flex flex-col-reverse items-center">
         <div id="hero-content" className="text-center">
-          <h2 className="text-3xl font-medium mb-4">Hey! I'm Geoff 👋</h2>
-          <p className="mb-8 text-[.9em] max-w-[430px]">
+          <h2 className="text-3xl font-medium mb-4">Hi, I'm Geoff 👋</h2>
+          <p className="mb-6 text-[.9em] max-w-[430px]">
             A design-minded front-end software engineer focused on building
             beautiful interfaces & experiences.
           </p>
@@ -26,7 +26,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div id="model" className="py-6 h-[300px] flex justify-center items-center">
+        <div id="model" className="pb-6 h-[320px] flex justify-center items-center">
           <Canvas>
             <ambientLight color={0xfffff} intensity={20} />
             <Model />

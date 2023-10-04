@@ -25,31 +25,16 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div id="model" className="pb-6 h-[320px] flex justify-center items-center">
+        <div
+          id="model"
+          className="pb-6 w-full h-[320px] md:h-[400px] lg:h-[500px] flex justify-center items-center"
+        >
           <Canvas>
             <ambientLight color={0xfffff} intensity={20} />
             <Model />
             <OrbitControls enableZoom={false} enablePan={false} />
           </Canvas>
         </div>
-      </div>
-      <div id="scroll-animation">
-        <a href="#about">
-          {/* Scroll Animation: Only visible on tablet & desktop */}
-          <div className="hidden lg:flex w-[30px] h-[60px] rounded-3xl border-4 border-secondary justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 2.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1 bg-white"
-            />
-          </div>
-        </a>
       </div>
     </section>
   );

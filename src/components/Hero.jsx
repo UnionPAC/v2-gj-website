@@ -8,8 +8,7 @@ const Hero = () => {
     <section id="hero" className="max-w-[60em] mx-auto p-4">
       <div className="flex flex-col-reverse items-center">
         <div id="hero-content" className="text-center">
-          <h2 className="text-3xl font-medium mb-4">Hi, I'm Geoff 👋</h2>
-          <p className="mb-6 text-[.9em] max-w-[430px]">
+          <p className="mb-6 text-[1em] max-w-[430px]">
             A design-minded front-end software engineer focused on building
             beautiful interfaces & experiences.
           </p>

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from "./Scene";
@@ -12,14 +11,14 @@ const Hero = () => {
             A design-minded front-end software engineer focused on building
             beautiful interfaces & experiences.
           </p>
-          <div className="flex flex-col-reverse">
+          <div className="flex flex-col">
             <a href="#contact">
-              <button className="border w-full max-w-[300px] py-3 bg-white text-black">
+              <button className="w-full max-w-[300px] py-4 mb-3 bg-text text-black bg-white tracking-wide">
                 Get in touch
               </button>
             </a>
-            <a href="#contact">
-              <button className="border w-full max-w-[300px] py-3 mb-2">
+            <a href="#projects">
+              <button className="bg-background border w-full max-w-[300px] py-4 tracking-wide">
                 View work
               </button>
             </a>
@@ -29,8 +28,10 @@ const Hero = () => {
           id="model"
           className="pb-6 w-full h-[320px] md:h-[400px] lg:h-[500px] flex justify-center items-center"
         >
+          {/* @TODO - Add suspense loader for model */}
           <Canvas>
             <ambientLight color={0xfffff} intensity={20} />
+            <pointLight intensity={10} />
             <Model />
             <OrbitControls enableZoom={false} enablePan={false} />
           </Canvas>

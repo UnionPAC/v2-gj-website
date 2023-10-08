@@ -6,13 +6,13 @@ const Footer = () => {
     >
       <div className="space-x-10">
         <a href="">
-          <i class="fa-brands fa-github text-3xl text-[#878787] hover:text-white"></i>
+          <i class="fa-brands fa-github text-3xl text-slate-500 hover:text-white"></i>
         </a>
         <a href="">
-          <i class="fa-brands fa-linkedin text-3xl text-[#878787] hover:text-white"></i>
+          <i class="fa-brands fa-linkedin text-3xl text-slate-500 hover:text-white"></i>
         </a>
         <a href="">
-          <i class="fa-brands fa-twitter text-3xl text-[#878787] hover:text-white"></i>
+          <i class="fa-brands fa-twitter text-3xl text-slate-500 hover:text-white"></i>
         </a>
       </div>
       <div>

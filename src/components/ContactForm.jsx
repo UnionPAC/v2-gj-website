@@ -57,51 +57,51 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col p-8 rounded bg-[#0D101E] border-2 border-secondary">
-      <p className="uppercase font-medium mb-3 text-sm text-primary">
+    <div className="flex flex-col p-8 rounded-lg max-w-[800px] mx-auto">
+      <p className="uppercase font-medium mb-3 text-sm text-slate-600">
         Get in touch
       </p>
-      <h3 className="text-3xl md:text-4xl lg:text-5xl font-semibold font-syne mb-10 text-accent">
+      <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 text-[#9FFF8A]">
         Contact
       </h3>
       <form ref={formRef} onSubmit={handleSubmit}>
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-3">Your Name</span>
+          <span className="text-white font-medium mb-2">Your Name</span>
           <input
             type="text"
             name="name"
             placeholder="Please enter your name"
             value={formData.name}
             onChange={handleChange}
-            className="bg-tertiary py-4 px-6 rounded-lg outline-none border-none font-medium mb-4 bg-secondary text-white"
+            className="py-4 px-6 rounded-lg outline-none font-medium mb-8 text-black text-sm"
           />
         </label>
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-3">Your email</span>
+          <span className="text-white font-medium mb-2">Your email</span>
           <input
             type="email"
             name="email"
             placeholder="Please enter your email"
             value={formData.email}
             onChange={handleChange}
-            className="bg-tertiary py-4 px-6 rounded-lg outline-none border-none font-medium mb-4 bg-secondary text-white"
+            className="py-4 px-6 rounded-lg outline-none border-none font-medium mb-8 text-black text-sm"
           />
         </label>
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-3">Your Message</span>
+          <span className="text-white font-medium mb-2">Your Message</span>
           <textarea
             rows={7}
             name="message"
             placeholder="What would you like to say?"
             value={formData.message}
             onChange={handleChange}
-            className="bg-tertiary py-4 px-6 rounded-lg outline-none border-none font-medium mb-6 bg-secondary text-white"
+            className="py-4 px-6 rounded-lg outline-none border-none font-medium mb-8 text-black text-sm"
           />
         </label>
 
         <button
           type="submit"
-          className="py-3 px-8 rounded outline-none w-full md:w-fit bg-primary text-white font-semibold mb-2 active:scale-95"
+          className="py-3 px-8 rounded outline-none w-full md:w-fit font-medium mb-2 active:scale-95 border-2 border-[#9FFF8A] hover:text-[#9FFF8A]"
         >
           {loading ? "Sending..." : "Send"}
         </button>

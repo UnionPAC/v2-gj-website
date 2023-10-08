@@ -12,16 +12,16 @@ const ProjectCard = ({ project }) => {
   return (
     <div
       id={`card-${id}`}
-      className="max-w-[480px] min-h-[450px] p-6 flex justify-between relative mb-16 xl:mb-0 xl:mx-4 rounded-lg bg-secondary"
+      className="max-w-[480px] min-h-[450px] p-6 flex justify-between relative mb-16 xl:mb-0 xl:mx-4 rounded-lg border-2 border-white bg-black"
     >
       <div className="absolute left-1/2 transform -translate-x-1/2">
         <i
-          className={`${fontAwesomeIcon} text-2xl lg:text-3xl xl:text-4xl z-10 bg-secondary p-1 text-primary`}
+          className={`${fontAwesomeIcon} text-2xl lg:text-3xl xl:text-4xl z-10 p-1 text-[#9FFF8A]`}
         ></i>
       </div>
       <div className="flex flex-col w-full">
         <div className="flex-1">
-          <h3 className="text-2xl lg:text-3xl font-bold font-syne py-4 lg:py-6 text-center text-white mt-12">
+          <h3 className="text-2xl lg:text-3xl font-bold font-syne py-4 lg:py-6 text-center mt-12">
             {title}
           </h3>
           <p className="pb-6">{description}</p>
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
               return (
                 <p
                   key={`${title}: tag-${index}`}
-                  className="border border-primary text-primary px-2 lg:px-3 py-1 text-sm"
+                  className="px-2 lg:px-3 py-1 text-sm border border-slate-600 text-slate-600"
                 >
                   {tag}
                 </p>
@@ -41,10 +41,10 @@ const ProjectCard = ({ project }) => {
           </div>
           <div className="flex justify-end">
             <a href={githubLink}>
-              <i className="fa-brands fa-github text-2xl lg:text-[1.8em] px-3 text-white"></i>
+              <i className="fa-brands fa-github text-2xl lg:text-[1.8em] px-3 text-gray-500 hover:text-white"></i>
             </a>
             <a href={projectLink}>
-              <i className="fa-solid fa-arrow-up-right-from-square text-2xl lg:text-[1.8em] px-2 text-accent"></i>
+              <i className="fa-solid fa-arrow-up-right-from-square text-2xl lg:text-[1.8em] px-2 text-gray-500 hover:text-white"></i>
             </a>
           </div>
         </div>

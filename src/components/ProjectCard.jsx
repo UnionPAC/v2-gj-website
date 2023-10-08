@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
               return (
                 <p
                   key={`${title}: tag-${index}`}
-                  className="px-2 lg:px-3 py-1 text-sm border border-slate-600 text-slate-600"
+                  className="px-2 lg:px-3 py-1 text-sm border border-slate-500 text-slate-500"
                 >
                   {tag}
                 </p>

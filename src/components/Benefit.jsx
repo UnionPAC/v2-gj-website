@@ -3,7 +3,7 @@ const Benefit = ({ benefit, index }) => {
   return (
     <div id={`point-${index + 1}`} className="flex">
       <div className="pr-2 md:pr-4 lg:pr-6">
-        <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-slate-800">{`0${
+        <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-slate-700">{`0${
           index + 1
         }`}</p>
       </div>

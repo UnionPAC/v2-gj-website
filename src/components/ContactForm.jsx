@@ -58,7 +58,7 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col p-8 rounded-lg max-w-[800px] mx-auto">
-      <p className="uppercase font-medium mb-3 text-sm text-slate-600">
+      <p className="uppercase font-medium mb-3 text-sm text-slate-500">
         Get in touch
       </p>
       <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 text-[#9FFF8A]">
@@ -74,6 +74,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             className="py-4 px-6 rounded-lg outline-none font-medium mb-8 text-black text-sm"
+            required
           />
         </label>
         <label className="flex flex-col">
@@ -85,6 +86,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             className="py-4 px-6 rounded-lg outline-none border-none font-medium mb-8 text-black text-sm"
+            required
           />
         </label>
         <label className="flex flex-col">
@@ -96,6 +98,7 @@ const ContactForm = () => {
             value={formData.message}
             onChange={handleChange}
             className="py-4 px-6 rounded-lg outline-none border-none font-medium mb-8 text-black text-sm"
+            required
           />
         </label>
 

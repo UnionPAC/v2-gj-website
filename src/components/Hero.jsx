@@ -1,6 +1,8 @@
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from "./Scene";
+import PercentageLoader from "./PercentageLoader";
 
 const Hero = () => {
   return (
@@ -8,8 +10,8 @@ const Hero = () => {
       <div className="flex flex-col-reverse items-center">
         <div id="hero-content" className="text-center">
           <p className="mb-6 text-[1em] max-w-[430px]">
-            A design-minded front-end software engineer focused on building
-            beautiful interfaces & experiences.
+            A versatile front-end developer, with a mission to contribute to
+            innovative projects with positive impact.
           </p>
           <div className="flex flex-col">
             <a href="#contact">
@@ -28,12 +30,13 @@ const Hero = () => {
           id="model"
           className="pb-6 w-full h-[320px] md:h-[400px] lg:h-[500px] flex justify-center items-center"
         >
-          {/* @TODO - Add suspense loader for model */}
           <Canvas>
-            <ambientLight color={0xfffff} intensity={20} />
-            <pointLight intensity={10} />
-            <Model />
-            <OrbitControls enableZoom={false} enablePan={false} />
+            <Suspense fallback={<PercentageLoader />}>
+              <ambientLight color={0xfffff} intensity={20} />
+              <pointLight intensity={10} />
+              <Model />
+              <OrbitControls enableZoom={false} enablePan={false} />
+            </Suspense>
           </Canvas>
         </div>
       </div>

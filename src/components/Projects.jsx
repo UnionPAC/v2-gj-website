@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section id="projects" className="max-w-[60em] mx-auto py-24 px-4">
       <div className="flex flex-col items-center justify-center text-center py-16">
-        <p className="mb-6 lg:text-lg tracking-wide text-slate-600">
+        <p className="mb-6 lg:text-lg tracking-wide text-slate-500">
           A view of my previous work
         </p>
         <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">

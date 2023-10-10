@@ -1,20 +1,19 @@
 const benefits = [
   {
-    name: "Self taught developer",
-    description: `I taught myself to code using free online resources and absolutely
-        fell in love with the creativity and problem solving that is involved
-        in developing and engineering innovation new online experiences.
-        Starting off with HTML, CSS, moving onward to JavaScript and then
-        expaning my knowledge base to include JavaScript frameworks like
-        React, backend programming, blockchain development, design and more!`,
+    name: "Self-taught developer",
+    description: `I taught myself to code using free online resources and immediately loved the creativity and problem solving that is required
+        to develop and engineer innovative online experiences.
+        I began by learning HTML & CSS, moving onward to JavaScript and then
+        expanding my knowledge base to include JavaScript frameworks like
+        React, Next.js, backend programming, blockchain development, design and more!`,
   },
   {
-    name: "Product design & UX finatic",
-    description: `Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and providing users with amazing online experiences.`,
+    name: "Entrepreneurial",
+    description: `I have always had a deep entrepreneurial drive. I love building things and solving problems. After university I started my own business called Koji Street, a marketplace for original art & fashion. During my two years of running the venture I learned so many things essential skills such as teamwork, organization, user feedback analysis, website design, and much more. Although I am not running Koji Street anymore today, the same entrepreneurial spirit drives me in all of my projects. `,
   },
   {
-    name: "Excellent communicator",
-    description: `Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.`,
+    name: "Great communicator",
+    description: `Effective communication is a cornerstone of my personal and professional values. I place a strong emphasis on transparency and constructive dialogue as they are fundamental in fostering deep and meaningful relationships. These principles underpin my ability to be productive and efficient in any workspace, collaborating effectively with diverse teams.`,
   },
 ];
 

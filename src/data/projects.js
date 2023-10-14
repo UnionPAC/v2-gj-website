@@ -17,7 +17,7 @@ const projects = [
       "A realtime chat application that allows users to connect with friends and family. Supports single chat and group chats, easy tools to manage your groups, and profile customizability. Peeps has been built with the purpose of providing a wonderful and easy experience for its users, so that they can focus on what's important - building and fostering connections.",
     tags: ["NodeJS", "ChakraUI", "Socket.io"],
     githubLink: "https://github.com/UnionPAC/mern-chat",
-    projectLink: "",
+    projectLink: "https://peeps.onrender.com/login",
   },
   {
     id: 3,

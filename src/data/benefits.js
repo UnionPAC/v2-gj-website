@@ -9,7 +9,7 @@ const benefits = [
   },
   {
     name: "Entrepreneurial",
-    description: `I have always had a deep entrepreneurial drive. I love building things and solving problems. After university I started my own business called Koji Street, a marketplace for original art & fashion. During my two years of running the venture I learned so many things essential skills such as teamwork, organization, user feedback analysis, website design, and much more. Although I am not running Koji Street anymore today, the same entrepreneurial spirit drives me in all of my projects. `,
+    description: `I have always had a deep entrepreneurial drive. I love building things and solving problems. After university I started my own business called Koji Street, a marketplace for original art & fashion. During my two years of running the venture I learned so many essential skills such as teamwork, organization, user feedback analysis, website design, and much more. Although I am not running Koji Street anymore today, the same entrepreneurial spirit drives me in all of my projects.`,
   },
   {
     name: "Great communicator",

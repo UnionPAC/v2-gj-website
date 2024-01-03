@@ -10,8 +10,8 @@ const Hero = () => {
       <div className="flex flex-col-reverse items-center">
         <div id="hero-content" className="text-center">
           <p className="mb-6 text-[1em] max-w-[430px]">
-            A versatile front-end developer, with a mission to contribute to
-            innovative projects with positive impact.
+            A versatile front-end developer, on a mission to contribute to
+            innovative projects and create positive impact.
           </p>
           <div className="flex flex-col">
             <a href="#contact">

@@ -1,13 +1,13 @@
 const projects = [
   {
     id: 1,
-    fontAwesomeIcon: "fa-solid fa-store",
-    title: "KICKS Shop",
+    fontAwesomeIcon: "fa-brands fa-npm",
+    title: "Kumos.js",
     description:
-      "A mock e-commerce platform for sneaker nerds. With a modern and user friendly design, this online shop makes it easy to discover the latest sneakers and find a pair that is right for you! To ensure a secure, fast and easy checkout process, we've integrated Stripe checkout so that you can shop with confidence.",
-    tags: ["NextJS", "Strapi", "Stripe"],
-    githubLink: "https://github.com/UnionPAC/nextjs-kicks-ecommerce",
-    projectLink: "https://nextjs-kicks-ecommerce.vercel.app/",
+      "A project to learn about how frontend JavaScript frameworks actually work by building my own. Including topics like creating & rendering a virtual DOM, state management, the reconciliation algorithm and more.",
+    tags: ["JavaScript", "DOM", "Framework"],
+    githubLink: "https://github.com/UnionPAC/kumos",
+    projectLink: "https://www.npmjs.com/package/kumos",
   },
   {
     id: 2,
@@ -21,14 +21,13 @@ const projects = [
   },
   {
     id: 3,
-    fontAwesomeIcon: "fa-solid fa-list-check",
-    title: "Todo Ninja",
+    fontAwesomeIcon: "fa-solid fa-store",
+    title: "KICKS Shop",
     description:
-      "A minimalist To-do app built using Vite, Firebase, and TypeScript. This app allows users to easily manage their tasks, with real-time synchronization and authentication provided by Firebase, ensuring a seamless and secure user experience.",
-    tags: ["Firebase", "Tailwind", "ReactJS"],
-    githubLink: "https://github.com/UnionPAC/vite-firebase-todo",
-    projectLink:
-      "https://vite-firebase-todo-mk69dw2vp-unionpac.vercel.app/login",
+      "A mock e-commerce platform for sneaker nerds. With a modern and user friendly design, this online shop makes it easy to discover the latest sneakers and find a pair that is right for you! To ensure a secure, fast and easy checkout process, we've integrated Stripe checkout so that you can shop with confidence.",
+    tags: ["NextJS", "Strapi", "Stripe"],
+    githubLink: "https://github.com/UnionPAC/nextjs-kicks-ecommerce",
+    projectLink: "https://nextjs-kicks-ecommerce.vercel.app/",
   },
 ];
 

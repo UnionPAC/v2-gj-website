@@ -11,9 +11,6 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/geoffjamieson/">
           <i className="fa-brands fa-linkedin text-3xl text-slate-500 hover:text-white"></i>
         </a>
-        <a href="https://twitter.com/unionpac_">
-          <i className="fa-brands fa-twitter text-3xl text-slate-500 hover:text-white"></i>
-        </a>
       </div>
       <div>
         <h6 className="text-sm">Made with 🪄 by Geoff Jamieson</h6>

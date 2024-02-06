@@ -11,7 +11,7 @@ _Note: This is version 2, which is the current version of my website._
   - [Goals](#goals)
   - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#m)
+- [My process](#my-process)
   - [Technology used](#technology-used)
 - [Credit](#credit)
   - [Assets](#assets)
@@ -54,24 +54,11 @@ I want a small corner of the internet that I can call my own, this is that place
 
 ## Credit
 
-### 🧱Built With
-
-<<<<<<< Updated upstream
-- Vite
-- React
-- TailwindCSS
-- three.js
-- React Three Fiber
-- tsParticles
-- EmailJS
-
-### 🖼️ Assets
+### Assets
 
 "Cyber Spore" (https://skfb.ly/oJW97) by Tycho Magnetic Anomaly is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-=======
-"Cyber Spore" (https://skfb.ly/oJW97) by Tycho Magnetic Anomaly is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 
 ### Inspiration
 
 - [Brittany Chiang](https://brittanychiang.com/) - *The design of the website is so nice and clean ... and I love the colour scheme! Also the little teleporter phone booth in the bottom right is such a cool idea, and what inspired me to create a v2 of my own website.*
->>>>>>> Stashed changes
